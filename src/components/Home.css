@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Mulish:wght@200&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.mainallcontainer{
+  display: flex;
+}
+.sidbarwrapper{
+  width: 20vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position:fixed;
+  background-color: rgb(0, 0, 0);
+}
+.sidebarcontainer{
+  height: 95%;
+  width: 90%;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.233);
+  background-size: cover;
+  color: white;
+}
+.maincontainerhome{
+  width: 80vw;
+  margin-left: 20vw;
+  background-color: rgb(0, 0, 0);
+}
+.maincontentwrapper{
+  width: 95%;
+  height: 55vh;
+}
+.mainabovecontentdiv{
+  height: 68vh;
+  background: linear-gradient(180deg,rgba(255, 255, 255, 0),rgb(0, 0, 0)),url("../images/1081832.jpg") no-repeat center center;
+  background-size:cover;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  margin: 20px;
+}
+.middlenavbarcontainer{
+  height: 10vh;
+  width: 100%;
+}
+.itemscontroller{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.maincontentwrapper{
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.descripdiv{
+font-family: 'Mulish', sans-serif;
+font-size: 12px;
+width: 60%;
+}
+.descripdiv p{
+  margin-top: 5px;
+  opacity: 60%;
+}
+.descripdiv span{
+  font-size: 16px;
+}
+ 
+.btncontrollerdiv button{
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 8px 14px;
+  background-color: transparent;
+  color: white;
+  font-size: 10px;
+  border-radius: 10px;
+}
+
+#btn1{
+  border: 0.5px solid rgb(184, 249, 255);
+}
+#btn2{
+  border: 0.5px solid rgb(255, 184, 203);
+}
+.btncontrollerdiv{
+  display: flex;
+}
+.sidebarcontainer{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.aboutbtndiv h3{
+font-family: 'Mulish', sans-serif;
+font-size: 40px;
+}
+.playnowdiv button{
+  padding: 8px 10px;
+  border-radius: 5px;
+  color: white;
+  border: 0.4px solid white;
+background: transparent;
+}
+.playnowdiv button:hover{
+opacity: 50%;
+transition: all 0.5s ;
+}

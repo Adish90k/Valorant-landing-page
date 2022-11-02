@@ -1,24 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import Home from './components/Home';
+import { BrowserRouter as Router,Route ,Routes} from 'react-router-dom';
+import Weapons from './components/Weapons';
+import Maps from "./components/Maps";
+import Bundles from "./components/Bundles";
+import Gamesmodes from './components/Gamemodes';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+    < >
+<Router>
+  <Routes>
+<Route path='/' exact element={<Home/>}/>
+<Route path='/weapons' exact element={<Weapons/>}/>
+<Route path='/Maps' exact element={<Maps/>}/>
+<Route path='/Bundles' exact element={<Bundles/>}/>
+<Route path='/Gamesmodes' exact element={<Gamesmodes/>}/>
+</Routes>
+</Router>
+    </>
   );
 }
 

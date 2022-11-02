@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Mulish:wght@200&display=swap');
+
+.maineventscarddiv{
+    margin: 20px;
+    height: 180px;
+    width: 210px;
+    position: relative;
+  background: linear-gradient(180deg,rgba(0, 169, 253, 0.055),rgb(0, 0, 0)),url("../images/wp6212343-valorant-logo-wallpapers.jpg") no-repeat ;
+  background-size: cover;  
+  display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    /* font-family: 'Montserrat', sans-serif; */
+font-family: 'Mulish', sans-serif;
+    }
+    .maineventscarddiv img{
+        width: 95%;
+        height: 95%;
+    }
+    .eventscontendiv{
+    color: white;
+    position: absolute;
+    bottom: 0;
+    height: 70%;
+    margin: 5px;
+    padding: 5px;
+    }
+    .hideeeventcontentdiv{
+        opacity: 0;
+    }
+    .maineventscarddiv:hover .hideeeventcontentdiv{
+    opacity: 100%;
+    transition: all 0.4s;
+    }
+    .maineventscarddiv:hover img{
+        transition: all 0.6s;
+        transform: scale(1.3);
+        opacity: 50%;
+    }
+   .maineventscarddiv:hover{
+    transition: all 0.6s;
+   }
+    .hideeeventcontentdiv p{
+        font-size: 11px;
+    }
+ 
