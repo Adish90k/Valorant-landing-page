@@ -1,37 +1,9 @@
-import React, { useState, useEffect } from "react";
-// import axios from "axios";
-import "./Home.css";
-import Sidenavbar from "./Sidenavbar";
-import Avatar from "./Avatar";
-// import Logoimg from "../images/Daco_4489723.png";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-// import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-// import Events from "./Events";
-// import Mainmaps from "./Mainmap"
-
-
-function Home() {
-  // const [Data, setData] = useState([]);
-
-  // const baseURL = "https://valorant-api.com/v1/events";
-  // // const getUsers = async () => {
-  // //   const users = await axios.get(baseURL);
-  // //   setData(users.data);
-  // //  };
-  // //  useEffect(() => {
-  // //   getUsers();
-  // //  }, []);
-
-  // useEffect(() => {
-  //   fetch(baseURL)
-  //     .then((res) => res.json())
-  //     .then((resp) => setData(resp.data));
-  // }, []);
-
+import React from 'react'
+import Sidenavbar from './Sidenavbar'
+import Maps from "./Maps"
+function Mainmap() {
   return (
-    <>
-    
+      
     <div className="mainallcontainer">
         <div className="sidbarwrapper">
           <div className="sidebarcontainer">
@@ -44,6 +16,7 @@ function Home() {
               <div className="aboutbtndiv"> 
                 <h3>Valorant</h3>
                 <div className="btncontrollerdiv">
+               
                   <a href="">
                     <button id="btn1">Hero</button>
                   </a>
@@ -64,14 +37,12 @@ function Home() {
           </div>
 
           <div className="itemscontroller">
-            <Avatar />
+          <Maps/>
           </div>
         </div>
       </div>
     
-
-    </>
-  );
+  )
 }
 
-export default Home;
+export default Mainmap
