@@ -44,7 +44,6 @@ function Home() {
               <div className="aboutbtndiv"> 
                 <h3>Valorant</h3>
                 <div className="btncontrollerdiv">
-               
                   <a href="">
                     <button id="btn1">Hero</button>
                   </a>
