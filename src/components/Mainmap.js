@@ -31,7 +31,7 @@ function Mainmap() {
                 Valorant is a free-to-play first-person hero shooter developed and published by Riot Games, for Microsoft Windows. Teased under the codename Project A in October 2019, the game began a closed beta period with limited access on April 7, 2020, followed by a release on June 2, 2020 </p>
               </div>
               <div className="playnowdiv">
-                <button>Play now</button>
+                <button> <a href="https://playvalorant.com/en-us/"> Play now</a></button>
               </div>
             </div>
           </div>

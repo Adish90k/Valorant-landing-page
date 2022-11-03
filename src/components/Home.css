@@ -112,6 +112,10 @@ background: transparent;
 opacity: 50%;
 transition: all 0.5s ;
 }
+.playnowdiv button a{
+  text-decoration: none;
+  color: white;
+}
 
 @media only screen and (max-width: 800px){
   .sidebarcontainer{
