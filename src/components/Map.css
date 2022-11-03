@@ -33,3 +33,11 @@
     transform: scale(1.1);
    transition: all 0.5s;
 }
+@media only screen and (max-width: 600px){
+    .mainmapscarddiv{
+        width: 220px;
+        height: 100px;
+    }
+
+
+}

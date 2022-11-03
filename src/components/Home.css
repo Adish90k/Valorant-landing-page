@@ -42,12 +42,10 @@
   border-bottom-right-radius: 8px;
   margin: 20px;
 }
-.middlenavbarcontainer{
-  height: 10vh;
-  width: 100%;
-}
+
 .itemscontroller{
   width: 100%;
+  overflow-y: hidden;
   display: flex;
   flex-wrap: wrap;
 }
@@ -59,6 +57,7 @@
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
+  
 }
 
 .descripdiv{
@@ -167,4 +166,5 @@ transition: all 0.5s ;
     flex-direction: column;
     align-items: center;
   }
+
 }
