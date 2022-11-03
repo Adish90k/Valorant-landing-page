@@ -2,10 +2,7 @@ import React from 'react'
 
 function Gamemodecard() {
   return (
-    <div>
-
-        
-    </div>
+    <div>Gamemodecard</div>
   )
 }
 

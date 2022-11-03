@@ -52,17 +52,17 @@ function Sidenavbar() {
               </div>  
 </NavLink>    
             </li>
-            <li className="midliitem" id="liitem4">
-        <NavLink to='/Bundles'  className="linknonactive">
+            {/* <li className="midliitem" id="liitem4">
+        <NavLink to='/Gamesmodes'  className="linknonactive">
          <div className="licontentdiv">
               <img src={Gamemodes} alt="" width="20px"/>
               <p>Gamemodes</p>
               </div>   
                </NavLink>   
          
-            </li>
+            </li> */}
             <li className="midliitem" id="liitem5">
-           <NavLink to='/Gamesmodes'  className="linknonactive">
+           <NavLink to='/Bundles'  className="linknonactive">
           <div className="licontentdiv">
               <img src={Bundles} alt="" width="20px"/>
               <p>Bundles</p>
