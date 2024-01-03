@@ -14,32 +14,20 @@ function Maps() {
 
   return (
     <>
+{Data.map((val, key) => (
+  val.splash ? (
+    <div className="mainmapscarddiv" key={key}>
+      <img src={val.splash} alt="displayname" />
 
-{Data.map((val, key) => {
-        if (val.splash) {
-
-          return (
-            <div className="mainmapscarddiv">
-              <img src={val.splash} alt="displayname" />
-  
-              <div className="mapscontendiv">
-             
-                <div className="hidemapcontentdiv">
-                   <h2>  {val.displayName}</h2>
-                  <p>
-                 {
-                 val.coordinates
-                 }
-                  </p>
-                </div>
-              </div>
-            </div>
-          );
-       
-        }
-      })}
-
-
+      <div className="mapscontendiv">
+        <div className="hidemapcontentdiv">
+          <h2>{val.displayName}</h2>
+          <p>{val.coordinates}</p>
+        </div>
+      </div>
+    </div>
+  ) : null
+))}
 
 
     </>
