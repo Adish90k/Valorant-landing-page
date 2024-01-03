@@ -16,13 +16,8 @@ function Mainmap() {
               <div className="aboutbtndiv"> 
                 <h3>Valorant</h3>
                 <div className="btncontrollerdiv">
-               
-                  <a href="">
                     <button id="btn1">Hero</button>
-                  </a>
-                  <a href="">
                     <button id="btn2">Shooter</button>
-                  </a>
                 </div>
               </div>
               <div className="descripdiv">

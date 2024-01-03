@@ -17,25 +17,21 @@ function Bundlecard() {
   return (
     <>
 
+{Data.map((val, key) => (
+  val.displayIcon ? (
+    <div className="mainbundlescarddiv" key={key}>
+      <img src={val.displayIcon} alt="displayname" />
 
-{Data.map((val, key) => {
-        if (val.displayIcon) {
-
-          return (
-            <div className="mainbundlescarddiv">
-              <img src={val.displayIcon} alt="displayname" />
-  
-              <div className="bundlescontendiv">
-             
-                <div className="hidebundlescontentdiv">
-                   <h2>  {val.displayName}</h2>
-                </div>
-              </div>
-            </div>
-          );
-       
-        }
-      })}
+      <div className="bundlescontendiv">
+        <div className="hidebundlescontentdiv">
+          <h2>{val.displayName}</h2>
+        </div>
+      </div>
+    </div>
+  ) : (
+    <p key={key}>Some error occurred</p>
+  )
+))}
 
 
     </>

@@ -2,11 +2,10 @@ import React from "react";
 import "./Middlenavbar.css";
 import Weapons from "../images/submachine-gun.png"
 import People from "../images/people.png"
-import Gamemodes from "../images/shuffle.png"
 import Map from "../images/placeholder.png"
 import Bundles from "../images/layer.png"
 import Logoimg from "../images/Daco_4489723.png";
-import { Link,NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 function Sidenavbar() {
 
   // const getcolor=(curr)=>{

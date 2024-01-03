@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 // import axios from "axios";
 import "./Home.css";
 import Sidenavbar from "./Sidenavbar";
@@ -44,10 +44,10 @@ function Home() {
               <div className="aboutbtndiv"> 
                 <h3>Valorant</h3>
                 <div className="btncontrollerdiv">
-                  <a href="">
+                  <a href="#">
                     <button id="btn1">Hero</button>
                   </a>
-                  <a href="">
+                  <a href="#">
                     <button id="btn2">Shooter</button>
                   </a>
                 </div>
