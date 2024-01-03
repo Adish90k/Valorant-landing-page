@@ -20,21 +20,17 @@ function Weaponscard() {
   return (
     <>
     
-    {Data.map((val, key) => {
-        if (val.displayIcon) {
+    {Data.map((val, key) => (
+  val.displayIcon ? (
+    <div className="mainweaponscarddiv" key={key}>
+      <img src={val.displayIcon} alt="displayname" />
+      <div className="weaponscontendiv">
+        {val.displayName}
+      </div>
+    </div>
+  ) : null
+))}
 
-          return (
-            <div className="mainweaponscarddiv">
-              <img src={val.displayIcon} alt="displayname"  />
-  
-              <div className="weaponscontendiv">
-                {val.displayName}
-              </div>
-            </div>
-          );
-       
-        }
-      })}
     </>
   )
 }

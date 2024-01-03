@@ -14,20 +14,19 @@ function Avatar() {
   return (
     <>
       {Data.map((val, key) => (
-  val.fullPortraitV2 ? (
-    <div className="maineventscarddiv" key={key}>
-      <img src={val.fullPortraitV2} alt="displayname" />
+        val.fullPortraitV2 ? (
+          <div className="maineventscarddiv" key={key}>
+            <img src={val.fullPortraitV2} alt="displayname" />
 
-      <div className="eventscontendiv">
-        {val.displayName}
-        <div className="hideeeventcontentdiv">
-          <h2></h2>
-          <p>{val.description}</p>
-        </div>
-      </div>
-    </div>
-  ) : null
-))}
+            <div className="eventscontendiv">
+              {val.displayName}
+              <div className="hideeeventcontentdiv">
+                <p>{val.description}</p>
+              </div>
+            </div>
+          </div>
+        ) : null
+      ))}
     </>
   );
 }
